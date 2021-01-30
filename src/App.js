@@ -9,9 +9,10 @@ function App() {
     <div className="app">
       <h1>This is the fitcar app</h1>
       <div className="app__body">
-      <SidebarRight />
-      <MainDashboard />
       <SidebarLeft />
+      <MainDashboard />
+      <SidebarRight />
+      
       </div>
       
     </div>

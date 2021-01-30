@@ -1,0 +1,12 @@
+.sidebarLeft {
+  display: flex;
+  flex-direction: column;
+  flex: 0.3;
+  border: 1px solid black;
+}
+
+.sidebarLeft__user {
+  display: flex;
+}
+
+

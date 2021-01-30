@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import "./MainDashboard.css";
 
 function MainDashBoard() {
   return (
-    <div>
-      
+    <div className="mainDashboard">
+      <h1>THis is the main dashboard</h1>
     </div>
   )
 }
