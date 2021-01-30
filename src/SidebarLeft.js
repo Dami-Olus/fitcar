@@ -1,6 +1,12 @@
 import React from 'react';
 import "./SidebarLeft.css";
-import { Avatar } from "@material-ui/core";
+import { Avatar, IconButton } from "@material-ui/core";
+import DashboardIcon from '@material-ui/icons/Dashboard';
+import PeopleIcon from '@material-ui/icons/People';
+import BuildIcon from '@material-ui/icons/Build';
+import EqualizerIcon from '@material-ui/icons/Equalizer';
+import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
+import SettingsIcon from '@material-ui/icons/Settings';
 
 
 function SidebarLeft() {
@@ -19,9 +25,43 @@ function SidebarLeft() {
       <div className="sidebarLeft__user">
       <Avatar />
       <div className="sidebarLeft__userInfo">
-        <h1>Damola Olusakin</h1>
+        <h4>Damola Olusakin</h4>
         <p>Fleet Manager</p>
       </div>
+      </div>
+
+      <div className="sidebarLeft__options">
+
+        <IconButton>
+          <DashboardIcon />
+          <h4>Dashboard</h4>
+        </IconButton>
+
+        <IconButton>
+          <PeopleIcon />
+          <h4>Dashboard</h4>
+        </IconButton>
+
+        <IconButton>
+          <BuildIcon />
+          <h4>Dashboard</h4>
+        </IconButton>
+
+        <IconButton>
+          <EqualizerIcon />
+          <h4>Dashboard</h4>
+        </IconButton>
+
+        <IconButton>
+          <MoreHorizIcon />
+          <h4>Dashboard</h4>
+        </IconButton>
+
+        <IconButton>
+          <SettingsIcon />
+          <h4>Dashboard</h4>
+        </IconButton>
+
       </div>
       
 

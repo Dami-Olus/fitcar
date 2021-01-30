@@ -3,4 +3,6 @@
   flex-direction: column;
   flex: 0.4;
   border: 1px solid green;
+  margin-right: 10px;
+  background-color: white;
 }
